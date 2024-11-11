@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <form name="form" id="form">
+            <h2>Account Creation</h2>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        
+        <div class="user-info">
+            <h3>User Information</h3>
+            <p>Username: <span id="usernameDisplay"></span></p>
+            <p>Email: <span id="emailDisplay"></span></p>
+            <p>Password: <span id="passwordDisplay"></span></p>
+            <p>Date of Birth: <span id="dobDisplay"></span></p>
+            <p>Gender: <span id="genderDisplay"></span></p>
+        </div>
+        
+    </div>
+
+    <script src="for.js"></script>
+</body>
+</html>
